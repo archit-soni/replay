@@ -1,5 +1,5 @@
 {
-  "homepage": "http://archit-soni.github.io/RePlay",
+  "homepage": "http://archit-soni.github.io/replay",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "http-server /build -a XXX.XXX.XXX.XXX -p 55000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
