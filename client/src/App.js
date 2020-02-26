@@ -49,7 +49,7 @@ class App extends Component {
 
 render(){
   return (
-    <div className="App">
+    <div className="App">A
       <a href='http://localhost:8888'>
         <button>Login with Spotify</button>
       </a>
